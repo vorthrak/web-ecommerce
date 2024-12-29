@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['order_product'])) {
 <div class="container">
     <div class="product-list">
         <div class="product">
-            <img src="assets/images/iphone16.jpg" alt="iPhone 16 Pro Max">
+            <img src="(link foto)" alt="iPhone 16 Pro Max">
             <h2>iPhone 16 Pro Max</h2>
             <p>Price: $1299</p>
             <form action="index.php" method="POST">
@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['order_product'])) {
         </div>
 
         <div class="product">
-            <img src="assets/images/vivo-x200.jpg" alt="Vivo X200 Pro">
+            <img src="(link foto)" alt="Vivo X200 Pro">
             <h2>Vivo X200 Pro</h2>
             <p>Price: $899</p>
             <form action="index.php" method="POST">
@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['order_product'])) {
         </div>
 
         <div class="product">
-            <img src="assets/images/xiaomi13t.jpg" alt="Xiaomi 13T">
+            <img src="(link foto)" alt="Xiaomi 13T">
             <h2>Xiaomi 13T</h2>
             <p>Price: $799</p>
             <form action="index.php" method="POST">
