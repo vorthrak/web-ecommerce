@@ -1,13 +1,14 @@
 # web-ecommerce
-## instalation in server
-- ```sudo apt update```
+## configuration in server
+- ```sudo apt update && upgrade -y```
 - ```sudo apt install apache2 php libapache2-mod-php php-mysql -y```
 - ```sudo systemctl start apache2```
 - ```sudo systemctl enable apache2```
 - ```mysql -h <endpoint database> -u <username> -p```
+- ```cd /var/www/html/<taruh file>```
 - ```sudo systemctl restart apache2```
 ---
-## configuration in database mysql
+## create database 
 ```sql
 CREATE DATABASE <nama database>;
 USE <nama database>;
@@ -21,5 +22,6 @@ CREATE TABLE <nama table> (
     order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 SELECT * FROM <nama table>;
+exit;
 ```
 ---
