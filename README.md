@@ -9,9 +9,9 @@
 ---
 ## configuration in database mysql
 ```sql
-CREATE DATABASE ecommerce;
-USE ecommerce;
-CREATE TABLE orders (
+CREATE DATABASE <nama database>;
+USE <nama database>;
+CREATE TABLE <nama table> (
     id INT AUTO_INCREMENT PRIMARY KEY,
     product_name VARCHAR(255) NOT NULL,
     product_price DECIMAL(10, 2) NOT NULL,
@@ -20,6 +20,6 @@ CREATE TABLE orders (
     address TEXT NOT NULL,
     order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-SELECT * FROM orders;
+SELECT * FROM <nama table>;
 ```
 ---
