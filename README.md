@@ -5,7 +5,7 @@
 - ```sudo systemctl start apache2```
 - ```sudo systemctl enable apache2```
 - ```sudo systemctl restart apache2```
-- ```mysql -h <RDS-endpoint> -u <username> -p```
+- ```mysql -h <endpoint database> -u <username> -p```
 ---
 ## configuration in database mysql
 ```sql
