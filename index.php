@@ -1,6 +1,6 @@
 <?php
 // Koneksi ke database untuk pemesanan
-$host = '(localhost)';
+$host = '(endpoint database)';
 $dbname = '(nama db)';
 $username = '(username)';
 $password = '(password)';
