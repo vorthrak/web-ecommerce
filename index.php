@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['order_product'])) {
     $address = $_POST['address'];
 
     // Menyimpan data pemesanan ke database
-    $query = "INSERT INTO orders (product_name, product_price, quantity, customer_name, address) 
+    $query = "INSERT INTO <nama table> (product_name, product_price, quantity, customer_name, address) 
               VALUES (?, ?, ?, ?, ?)";
     $statement = $conn->prepare($query);
     $statement->execute([$productName, $productPrice, $quantity, $customerName, $address]);
