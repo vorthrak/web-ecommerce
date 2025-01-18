@@ -4,8 +4,8 @@
 - ```sudo apt install apache2 php libapache2-mod-php php-mysql -y```
 - ```sudo systemctl start apache2```
 - ```sudo systemctl enable apache2```
-- ```sudo systemctl restart apache2```
 - ```mysql -h <endpoint database> -u <username> -p```
+- ```sudo systemctl restart apache2```
 ---
 ## configuration in database mysql
 ```sql
